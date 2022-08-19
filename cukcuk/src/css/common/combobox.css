@@ -1,0 +1,35 @@
+.m-combobox:active{
+    
+}
+.m-show-combobox{
+    height: 40px;
+    width: 150px;
+    border: 1px solid;
+    border-color: #bbbbbb;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+   
+}
+
+.m-icon-combobox{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid #bbbbbb;
+    border-left: none;
+    cursor: pointer;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.m-show-combobox::placeholder{
+    font-size: 11px;
+    font-family: Regular;
+    padding: 16px;
+}

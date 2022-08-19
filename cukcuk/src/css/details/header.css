@@ -1,0 +1,30 @@
+.m-header{
+    width: 100%;
+    height: 48px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.m-header .m-combobox-restaurants{
+    width: 213px;
+    display: flex;
+}
+
+.m-header .m-info-user{
+    display: flex;
+    align-items: center;
+}
+
+.m-header .m-info-user .m-avatar{
+    width: 24px;
+    height: 24px;
+}
+.m-header .m-info-user .m-user-name{
+    margin-left: 16px;
+    font-family: Regular;
+}
+.m-header .m-info-user .m-option-avatar{
+    margin: 0 16px;
+    cursor: pointer;
+}

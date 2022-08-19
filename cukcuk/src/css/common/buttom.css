@@ -1,0 +1,19 @@
+.btn{
+    min-width: 100px;
+}
+
+.btn-icon{
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+    height: 40px;
+    color: #fff;
+    font-family: Regular;
+    padding-left: 40px;
+    padding-right: 16px;
+    background-color: #019160;
+    background-position: 16px center;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}

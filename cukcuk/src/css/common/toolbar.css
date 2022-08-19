@@ -1,0 +1,9 @@
+.btn-toolbar{
+    height: 24px;
+    width: 24px;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-position: center center;
+    cursor: pointer;
+}

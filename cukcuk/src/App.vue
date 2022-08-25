@@ -7,9 +7,8 @@
 </template>
 
 <script>
-
-  import TheContent from './components/TheContent.vue';
-  import TheMenu from './components/TheMenu.vue';
+  import TheMenu from './components//layout/TheMenu.vue';
+  import TheContent from './components/layout/TheContent.vue';
 
   export default {
     name: 'App',
@@ -24,12 +23,15 @@
   @import url("./css/common/main.css");
 
 body{
-margin: 0;
-}
-#app {
+  margin: 0;
   width: 100vw;
   height: 100vh;
   font-size: 13px;
+  font-family: Regular;
+}
+#app {
+  width: 100%;
+  height: 100%;
   display: flex;
 }
 </style>

@@ -25,5 +25,5 @@
 </script>
 
 <style scoped>
-    @import url("../css/details/header.css")
+        @import url(../../css/details/header.css);
 </style>

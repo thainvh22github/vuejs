@@ -1,12 +1,8 @@
-.pdl-15{
-    padding-left: 15px;
-}
 
-.pdl-10{
-    padding-left: 10px;
-}
 .m-menu{
-    width: 226px;
+    width: 226px; 
+    border-right: 2px #e5e5e5 solid;  
+    box-sizing: border-box;
 }
 .m-logo-paging{
     height: 48px;
@@ -19,6 +15,7 @@
 }
 
 .m-menu .m-option{
+    text-decoration: none;
     
 }
 
@@ -41,8 +38,5 @@
     font-family: Rengular;
 }
 
-.m-menu .m-option .m-active{
-    background-color: #019160;
-    color: white;
-}
+
 

@@ -1,0 +1,12 @@
+.router-link-active{
+    text-decoration: none;
+    background-color: #019160;
+    color: white;
+}
+.router-link-active:hover{
+    background-color: #2fb28e !important;
+    color: white !important;
+}
+.m-menu-option{
+    text-decoration: none;
+}

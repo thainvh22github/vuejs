@@ -1,0 +1,160 @@
+.m-dialog{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 100vw;
+    height: 100vh;
+}
+.m-dialog .m-dialog-modal{
+    position: absolute;
+    top: calc(50% - 49%);
+    left: calc(50% - 30%);
+    width: 65%;
+    height: 95%;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+
+.m-dialog .m-header-form-add{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.m-dialog .m-dialog-modal .m-header-form-add .m-title-form-add{
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.m-dialog .m-dialog-modal .m-header-form-add .btn-close-form-add{
+    height: 24px;
+    width: 24px;
+    background-size: 24px 24px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.m-dialog .m-dialog-modal .m-main-form-add{
+    width: 100%;
+    height: calc(100% - 80px - 60px);
+    display: flex;
+}
+
+.m-dialog .m-dialog-modal .m-bottom-form-add{
+    width: 100%;
+    height: 60px;
+    /* background-color: #019160; */
+    margin-top: 15px;
+    display: flex;
+    border-radius: 4px;
+
+}
+
+.m-dialog .m-dialog-modal .m-main-form-add .m-avatar-form-add{
+    height: 50%;
+    width: 25%;
+}
+
+.m-dialog .m-dialog-modal .m-main-form-add .m-content-form-add{
+    height: 100%;
+    width: 75%;
+    overflow-y: scroll;
+    
+}
+.m-dialog-modal .m-main-form-add .m-avatar-form-add{
+    padding-left: 3%;
+    box-sizing: border-box;
+}
+.m-dialog-modal .m-main-form-add .m-avatar-form-add .m-default-avatar{
+    height: 70%;
+    width: 80%;
+    border-radius: 1000px;
+    border: #bbb 1px solid;
+    background-color: #bbb;
+    
+    
+}
+.m-dialog-modal .m-main-form-add .m-avatar-form-add .m-text-avatar{
+    width: 80%;
+    top: 33%;
+    left: 15%;
+}
+
+.m-content-form-add .m-text-header-form{
+    font-size: 18px;
+}
+.m-content-form-add .m-line-form{
+    border: #019160 2px solid;
+    width: 15%;
+}
+
+
+.m-container{
+    width: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.m-text-header-form{
+    margin-left: 15px;
+}
+.m-display-98{
+    width: 98%;
+    display: flex;
+}
+
+.m-content-form-add .m-parent-identityissuedplace .m-identityissuedplace{
+    width: calc(100% - 15px);
+}
+
+.m-text-form{
+    margin-bottom: 4px;
+}
+/* .m-combobox-gender{
+    width: 300px;
+} */
+.m-dialog-modal .m-bottom-form-add{
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+.m-dialog-modal .m-bottom-form-add .btn-close{
+    color: #000;
+    background-color: #e5e5e5;
+    margin-right: 2%;
+    justify-content: center;
+}
+.m-dialog-modal .m-bottom-form-add .btn-close:hover{
+    background-color: #bbb;
+}
+
+.m-dialog-modal .m-bottom-form-add .btn-save{
+    margin-right: 5%;
+}
+
+
+.m-dialog .m-dialog-modal .m-main-form-add ::-webkit-scrollbar{
+    width: 6px;
+}
+/* Handle */
+.m-dialog .m-dialog-modal .m-main-form-add ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px; 
+    
+}
+  
+  /* Handle on hover */
+.m-dialog .m-dialog-modal .m-main-form-add ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

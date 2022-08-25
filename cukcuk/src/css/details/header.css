@@ -4,11 +4,15 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
+    border-bottom: 2px #e5e5e5 solid;  
+    box-sizing: border-box;
+
 }
 
 .m-header .m-combobox-restaurants{
     width: 213px;
     display: flex;
+    margin-left: 20px;
 }
 
 .m-header .m-info-user{

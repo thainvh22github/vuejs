@@ -1,7 +1,17 @@
+.text-center{
+    text-align: center;
+}
+.text-rigth{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+
 .m-table{
     width: 100%;
-    height: calc(100% - 48px - 48px);
-    border: 1px solid black;
+    height: calc(100% - 48px);
+    /* border: 1px solid black; */
     box-sizing: border-box;
 }
 .m-table .m-header-table{
@@ -43,18 +53,46 @@
 
 }
 .m-table .m-data-table{
-    background-color: yellow;
+    padding: 5px 15px;
     height: calc(100% - 89px);
     width: 100%;
+    overflow-x: scroll;
+    box-sizing: border-box;
 }
-
-.m-table .m-data-table td{
-    width: 100px;
-    height: 40px;
-    border: 1px solid black;
+.m-table ::-webkit-scrollbar{
+    height: 6px;
+}
+/* Handle */
+.m-table ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px; 
     
 }
-
+  
+  /* Handle on hover */
+.m-table ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.m-table .m-data-table td{
+    width: 200px;
+    height: 48px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #bbb;
+    padding: 0 15px;
+    
+}
+table tbody tr:nth-child(odd){
+    background-color:#eee;
+}
+table tbody tr:nth-child(even){
+    background-color:white;
+}
+table{
+    width: 120%;
+}
+table tbody{
+    cursor: pointer;
+}
 .m-table .m-data-table table{
     border-collapse: collapse;
 }

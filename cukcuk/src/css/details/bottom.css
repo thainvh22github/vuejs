@@ -1,0 +1,42 @@
+.m-bottom{
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-bottom .m-showtotal-emloyee{
+    padding: 5px;
+}
+.m-bottom .m-employee-paging{
+    padding: 5px;
+}
+.m-bottom .m-paging button{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.m-bottom .m-paging .btn-first-page{
+    border: none;
+    background-color: white;
+}
+.m-bottom .m-paging .btn-prev-page{
+    border: none;
+    background-color: white;
+}
+.m-bottom .m-paging .btn-next-page{
+    border: none;
+    background-color: white;
+}
+.m-bottom .m-paging .btn-last-page{
+    border: none;
+    background-color: white;
+}
+.m-bottom .m-paging .m-page-active{
+    background-color: #019160;
+    color: white;
+}

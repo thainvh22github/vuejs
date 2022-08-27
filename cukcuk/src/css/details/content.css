@@ -1,0 +1,9 @@
+.m-content{
+    height: 100%;
+    width: calc(100% - 226px);
+    
+}
+.employee-list{
+    height: calc(100% - 48px);
+    width: 100%;
+}

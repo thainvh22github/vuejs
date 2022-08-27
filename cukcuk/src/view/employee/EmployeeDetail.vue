@@ -1,10 +1,9 @@
 <template>
-    <div class="m-dialog">
-        <div class="m-dialog-modal">
-
+    <div id="employeeDetail" class="m-dialog" v-bind:class="{isShowDialog: isShow}" >
+        <div id="formadd" class="m-dialog-modal">
             <div class="m-header-form-add">
                 <div class="m-title-form-add">THÔNG TIN NHÂN VIÊN</div>
-                <div class="m-icon-x btn-close-form-add"></div>
+                <div class="m-icon-x btn-close-form-add" id="btn-close" @click = "btnCloseFormAddOnclick"></div>
             </div>
 
             <div class="m-main-form-add">
@@ -115,10 +114,14 @@
                             <input type="date" class="input width-100 m-joindate">
 
                         </div>
-                        <div class="m-container">
+                       <div class="m-container">
                             <div class="m-text-form">Tình trạng công việc</div>
-                            <input type="text" class="input width-100 m-workstatus">
-
+                            <div class="m-combobox m-combobox-workstatus">
+                                <input class="m-show-combobox" readonly="readonly" placeholder="Chọn thông tin">
+                                <button class="m-icon-combobox">
+                                    <div class="m-icon-dropdown"></div>
+                                </button>
+                            </div>
                         </div>
                     </div>
 
@@ -136,8 +139,32 @@
 </template>
 
 <script>
+   
     export default {
-        
+        methods:{
+
+            /**
+             * Author: NVHThai (26/08/2022)
+             * Ẩn form thêm nhân viên
+             */
+            btnCloseFormAddOnclick(){
+
+                /**
+                 * emit là hàm để gọi vào hàm cha
+                 * isShowDialog khai báo bên hàm cha @isShowDialog
+                 */
+                this.$emit("isShowDialog", false);
+            }
+        },
+
+        props: ['isShow'],
+
+        data(){
+            return {
+                    
+            }
+        },
+
     }
 </script>
 
